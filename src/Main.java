@@ -30,6 +30,7 @@ public class Main {
         addMechanic(tesla, petr);
         addMechanic(truck,vova);
         addMechanic(bus,igor);
+        addMechanic(tesla, petr);
 
         for (Map.Entry<Transport,Mechanic> transportMechanicEntry :mechanics.entrySet()) {
             System.out.println(transportMechanicEntry.getKey().getBrand() + " - "+ transportMechanicEntry.getValue().toString());
